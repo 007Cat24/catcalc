@@ -31,7 +31,7 @@ function golfScore(par, strokes) {
 
 golfScore(4, 7);
 console.log('      ')
-console.log("Welcome to CharlyCalc, the free and magical golf calculator.")
+console.log("Welcome to CharlyCalc, the basic calculator.")
 console.log('      ')
 
 
