@@ -1,11 +1,15 @@
 {
   "name": "catscalculator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A calculator with some cool functions.",
   "main": "golfcalccli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "auto-updater":{
+	"repo":"/007Cat24/catcalc",
+	"branch":"master"
+}
   "author": "",
   "license": "ISC",
   "dependencies": {
