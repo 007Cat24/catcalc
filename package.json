@@ -9,7 +9,7 @@
   "auto-updater":{
 	"repo":"/007Cat24/catcalc",
 	"branch":"master"
-}
+},
   "author": "",
   "license": "ISC",
   "dependencies": {
