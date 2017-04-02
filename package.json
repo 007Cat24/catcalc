@@ -6,10 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "auto-updater":{
-	"repo":"/007Cat24/catcalc",
-	"branch":"master"
-},
   "author": "",
   "license": "ISC",
   "dependencies": {
