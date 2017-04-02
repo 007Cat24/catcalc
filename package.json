@@ -13,5 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+	"auto-updater": "1.0.2"
   }
 }
