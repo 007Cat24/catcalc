@@ -4,20 +4,20 @@ var rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
-var pi = 3.1415926535
+var pi = 3.1415926535;
 function golfScore(par, strokes) {
 
   if (strokes == 1) {
     return "Hole-in-one!";
   } else if (strokes <= par - 2) {
     return "Eagle";
-  } else if (strokes == par - 1) {
+  } else if (strokes === par - 1) {
     return "Birdie";
-  } else if (strokes == par) {
+  } else if (strokes === par) {
     return "Par";
-  } else if (strokes == par + 1) {
+  } else if (strokes === par + 1) {
     return "Bogey";
-  } else if (strokes == par + 2) {
+  } else if (strokes === par + 2) {
     return "Double Bogey";
   } else if (strokes >= par + 3) {
     return "Go Home!";
@@ -30,9 +30,9 @@ function golfScore(par, strokes) {
 
 
 golfScore(4, 7);
-console.log('      ')
+console.log("      ")
 console.log("Welcome to CharlyCalc, the basic calculator.")
-console.log('      ')
+console.log("      ")
 
 
 rl.question('Please tell me your name: ', function (name) {
@@ -48,14 +48,14 @@ rl.question('Please tell me your name: ', function (name) {
 
       });
     }
-    else if (val == 2) {
+    else if (val === 2) {
       rl.question('Awesome! Please enter the area of the crater (in km squared): ', function (area) {
         rl.question("Okay, and what's the perimeter? :", function (perimeter) {
-          console.log("Calculating...")
-          console.log(' ')
-          var counter = 4 * pi * area
-          var denominator = perimeter * perimeter
-          var circularityRatio = counter / denominator
+          console.log("Calculating...");
+          console.log(" ");
+          var counter = 4 * pi * area;
+          var denominator = perimeter * perimeter;
+          var circularityRatio = counter / denominator;
           var roundedtwo = Number((circularityRatio).toFixed(2));
           var roundedthree = Number((circularityRatio).toFixed(3));
           console.log('The circularity ratio is '+ roundedtwo + '.')
